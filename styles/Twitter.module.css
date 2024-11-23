@@ -1,0 +1,140 @@
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #151d27;
+  color: white;
+}
+
+.leftContainer {
+  display: flex;
+  padding: 20px;
+  width: 20%;
+  height: 100%;
+  border-right: 1px solid #51565b;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 15%;
+  height: 5%;
+}
+
+.profil {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 20%;
+  border-radius: 20px;
+}
+
+.username {
+  color: grey;
+  font-size: 12px;
+}
+
+.logout {
+  border-radius: 10px;
+  border-color: white;
+  background-color: transparent;
+  color: grey;
+  width: 80px;
+}
+
+.middleContainer {
+  width: 50%;
+  height: 100%;
+  border-right: 1px solid #51565b;
+}
+
+.titleHome {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.tweetContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+  gap: 10px;
+  border-bottom: 2px solid #51565b;
+}
+
+.tweetInput {
+  width: 90%;
+  height: 70px;
+  border-bottom: #51565b;
+  background-color: #151d27;
+  color: white;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 20px;
+}
+
+.tweetBtn {
+  width: 90px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #3690ed;
+  color: white;
+  font-weight: 600;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15%;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+}
+
+.trendsContainer {
+  width: 90%;
+  height: 30%;
+  background-color: #1b232c;
+  border-radius: 20px;
+  overflow-y: scroll;
+}
+.trendsContainer::-webkit-scrollbar {
+  width: 0px;
+}
+
+.trendsTitle {
+  padding: 10px;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+}
+
+.trendsContent {
+  width: 100%;
+  height: 30%;
+}
+
+.postContainer {
+  height: 70vh;
+  overflow-y: scroll;
+}
+
+.postContainer::-webkit-scrollbar {
+  width: 0px;
+}

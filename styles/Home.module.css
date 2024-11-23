@@ -1,0 +1,51 @@
+.containerLogin {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  height: 100vh;
+}
+
+.leftContainer {
+  background-image: url(../public/twitter_bg.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#iconeTwitterbg {
+  height: 15rem;
+}
+
+.rightContainer {
+  background-color: #151f2b;
+  padding: 30px;
+}
+
+#iconeTwitter {
+  height: 50px;
+}
+
+#h1 {
+  font-size: 5rem;
+  color: white;
+  font-weight: 900;
+}
+
+#h2 {
+  color: white;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+#btnSignUp {
+  padding: 15px 30px;
+  border-radius: 20px;
+}
+
+#p {
+  color: white;
+}
+
+#btnSignIn {
+  padding: 15px 30px;
+  border-radius: 20px;
+}

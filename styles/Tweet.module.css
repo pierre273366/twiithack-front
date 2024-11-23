@@ -1,0 +1,32 @@
+.postContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    border-bottom: 1px solid #51565B;
+    
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    margin:0;
+    padding:0;
+    gap: 10px;
+}
+
+.user{
+ display: flex;
+ align-items: center;
+}
+
+.avatar{
+    width: 8%;
+    border-radius: 50%;
+}
+
+.grey{
+    color: grey;
+    font-size: 14px;
+}

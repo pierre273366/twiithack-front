@@ -1,0 +1,19 @@
+.hashtagItem{
+    padding: 10px;
+}
+
+.span {
+    font-size: 12px;
+    color: grey;
+}
+
+.hashtag {
+    font-size: 1rem;
+    font-weight: bold;
+    margin:0; 
+    margin-bottom: 10px;
+}
+
+.hashtagItem:hover {
+    background-color: grey;
+}
